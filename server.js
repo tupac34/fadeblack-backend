@@ -1,4 +1,5 @@
 const express = require('express');
+const router = express.Router();
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const authRoutes = require('./routes/auth');
